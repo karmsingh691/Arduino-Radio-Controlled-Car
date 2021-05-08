@@ -50,6 +50,7 @@ The transmitting Arduino Nano is respnsible for sending the joystick data concer
 The X and Y axis data is based on the coordinate system that the joystick is designed with, The image below shows the coordinate system I am referencing. I used this data to set the directions of the RC car based on the transmitted data. 
 
 <div align="center">Joystick Coordinate System</div>
+
 ![PS2-Joystick-Module-Movement-Analog-Values-on-Arduino](https://user-images.githubusercontent.com/55263663/117518698-a7f71180-af55-11eb-89fc-68e55c005ada.png)
 
 The joystick's X and Y pins are connected to 2 Analog In ports on the Nano which are converted into digital data via the internal A/D converter. I used an array to store the data which can be transmitted to the RF receiver on the Arduino Mega on top of the car.
