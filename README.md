@@ -1,12 +1,22 @@
 # Arduino Radio-Controlled Car
 
-Another personal project aiming to build a remote controlled car with Arduinos and RF modules. 
+Personal project aiming to build a remote controlled car with Arduinos and RF modules. 
 
 ## Objectives and Motivation
 
 The goal for this project is to use RF technology to control an Arduino powered car wirelessly. Ideally, this system could be placed into any hobby RC car and be able to control the vehicle with the same components.
 
 # Table of Contents
+
+- [Parts List](#parts-list)
+- [Current Build](#current-build)
+     * [Transmitting End](#transmitting-end)
+     * [Receiving End](#receiving-end)
+- [Youtube Playlist](#youtube-playlist)
+- [Future Plans](#future-plans)
+
+
+
 
 ## Parts List
 
@@ -27,11 +37,11 @@ The following is the up-to-date parts list for the project. Links are provided w
 
 The images shown below is the first iteration of the arduino car, including the joystick that is connected to the transmitting Arduino Nano. Future plans include converting the transmitter into a PCB board so the controller can be more handheld. 
 
+There are currently two parts of the project that controls the arduino car wirelessly: the transmitting and receiving end.
+
 NOTE: The NRF24L01 connects to different ports for various types of Arduinos. Research port connections based on the Arduino you want to use.
 
-## How the system works
 
-There are currently two parts of the project that controls the arduino car wirelessly: the transmitting and receiving end.
 
 ### Transmitting End
 
