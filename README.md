@@ -41,6 +41,9 @@ There are currently two parts of the project that controls the arduino car wirel
 
 NOTE: The NRF24L01 connects to different ports for various types of Arduinos. Research port connections based on the Arduino you want to use.
 
+![IMG_20210507_172120](https://user-images.githubusercontent.com/55263663/117520003-fb1f9300-af5a-11eb-9c21-620aa9491ce9.jpg)
+![IMG_20210507_173336](https://user-images.githubusercontent.com/55263663/117520009-0377ce00-af5b-11eb-9492-07835ef4f876.jpg)
+
 
 
 ### Transmitting End
@@ -49,7 +52,6 @@ The transmitting Arduino Nano is respnsible for sending the joystick data concer
 
 The X and Y axis data is based on the coordinate system that the joystick is designed with, The image below shows the coordinate system I am referencing. I used this data to set the directions of the RC car based on the transmitted data. 
 
-<div align="center">Joystick Coordinate System</div>
 
 ![PS2-Joystick-Module-Movement-Analog-Values-on-Arduino](https://user-images.githubusercontent.com/55263663/117518698-a7f71180-af55-11eb-89fc-68e55c005ada.png)
 
