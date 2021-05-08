@@ -41,7 +41,7 @@ There are currently two parts of the project that controls the arduino car wirel
 
 NOTE: The NRF24L01 connects to different ports for various types of Arduinos. Research port connections based on the Arduino you want to use.
 
-
+<div align="center"></div>
 
 ### Transmitting End
 
