@@ -26,7 +26,7 @@ The following is the up-to-date parts list for the project. Links are provided w
 2. 2 Lithium Polymer batteries rated at 3.7V 2000 mAh --> https://www.sparkfun.com/products/13855
 3. L293D Motor Shield for Arduino --> https://www.sunfounder.com/products/l293d-motor-drive-shield?_pos=1&_sid=4cbf1d2a0&_ss=r
 5. Half-Size Breadboard
-6. 2 NRF24L01 Transciever Modules
+6. 2 NRF24L01 Transceiver Modules
 7. Arduino Mega 2560
 8. Arduino Nano
 9. PS2 Joystick
@@ -35,7 +35,7 @@ The following is the up-to-date parts list for the project. Links are provided w
 
 ## Current Build 
 
-The images shown below is the first iteration of the arduino car, including the joystick that is connected to the transmitting Arduino Nano. Future plans include converting the transmitter into a PCB board so the controller can be more handheld. 
+The images below are the first iteration of the arduino car, including the joystick that is connected to the transmitting Arduino Nano. Future plans include converting the transmitter into a PCB board so the controller can be more handheld. 
 
 There are currently two parts of the project that controls the arduino car wirelessly: the transmitting and receiving end.
 
@@ -48,9 +48,9 @@ NOTE: The NRF24L01 connects to different ports for various types of Arduinos. Re
 
 ### Transmitting End
 
-The transmitting Arduino Nano is respnsible for sending the joystick data concerning X and Y axis positions to the Arduino Mega. This data is being sent and received by a pair of NRF24L01 radio modules that are connected to the Nano and Mega. 
+The transmitting Arduino Nano is responsible for sending the joystick data concerning X and Y axis positions to the Arduino Mega. This data is being sent and received by a pair of NRF24L01 radio modules that are connected to the Nano and Mega. 
 
-The X and Y axis data is based on the coordinate system that the joystick is designed with, The image below shows the coordinate system I am referencing. I used this data to set the directions of the RC car based on the transmitted data. 
+The X and Y axis data is based on the coordinate system that the joystick is designed with. The image below shows the coordinate system I am referencing. I used this data to set the directions of the RC car based on the transmitted data. 
 
 <p align="center">
   <img width="504" height="445" src="https://user-images.githubusercontent.com/55263663/117518698-a7f71180-af55-11eb-89fc-68e55c005ada.png">
